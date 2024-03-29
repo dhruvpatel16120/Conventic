@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: #fbfcfb;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #fbfcfb;
+    border: 3px solid #fbfcfb;
+    background: transparent;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #fbfcfb;
+    color: #0bb6ef ;
+}
+
+.content {
+    color: #fbfcfb;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+small {
+   font-size: 20px; 
+}
+
+.sidebar {
+    width: 50px;
+    height: 100vh;
+    background:linear-gradient(#00545d,#000729);
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.menu {
+    display: block;
+    width: 25px;
+    margin:40px auto 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.social a , .userlink a {
+    font-size: 25px ;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.social {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.userlink {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.bubbles img {
+    width: 50px;
+    animation: bubble 5s linear infinite;
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-20%;
+}
+
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 0.4s;
+    width: 60px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 2.2s;
+    width: 40px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3.6s;
+    width: 65px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 3s;
+    width: 50px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 1.9s;
+    width: 55px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 0.5s;
+    width: 65px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 2.5s;
+    width: 50px;
+}
+.bubbles img:nth-child(8){
+    animation-delay: 4s;
+    width: 45px;
+}
+.bubbles img:nth-child(9){
+    animation-delay: 3.5s;
+    width: 60px;
+}
+.bubbles img:nth-child(10){
+    animation-delay: 1s;
+    width: 60x;
+}
+
+@media screen and (max-width:600px) {
+    
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+small {
+   font-size: 15px; 
+}
+.sidebar{
+    width: 100%;
+    height: 50px;
+    top:auto;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.social {
+    width: auto;
+    right: 20%;
+    top:50%;
+}
+.social a,.userlink a{
+    font-size: 17px;
+    display: inline;
+    margin: 0 10px;
+}
+.userlink {
+    width: auto;
+    top:32%;
+    right: 5px;
+}
+.menu {
+    width: 20px;
+    margin: 0;
+}
+.btn {
+    padding: 6px 16px;
+    border:2px solid #fbfcfb ;
+}
+.hero{
+    background:linear-gradient(#00545d,#000729);
+}
+.logo {
+    width:110px ;
+}
+}
+
+/* sign up page  */
+
