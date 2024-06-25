@@ -11,5 +11,5 @@ A simple landing page of conventic studio with bubble animation
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 ## Live URL
-[![Preview](https://img.shields.io/badge/Preview-Live-brightgreen?style=for-the-badge)](https://dhruvpatel16120.github.io/Conventic/)
+[![Preview](https://img.shields.io/badge/Preview-Live-brightgreen?style=for-the-badge)](https://dhruvpatel16120.github.io/Conventic-Studio/)
 
